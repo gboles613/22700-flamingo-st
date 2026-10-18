@@ -93,7 +93,7 @@ listing = {"@type": "RealEstateListing", "@id": SITE + "#listing", "url": SITE, 
 video = {"@type": "VideoObject", "@id": SITE + "#video",
          "name": f"Video tour: {FULL_ADDR} rental home",
          "description": f"2.5-minute walkthrough video tour of the renovated home for lease at {FULL_ADDR}.",
-         "thumbnailUrl": [SITE + "media/video-poster.jpg"], "uploadDate": "2026-10-18",
+         "thumbnailUrl": [SITE + "media/video-poster-kitchen.jpg"], "uploadDate": "2026-10-18",
          "duration": "PT2M30S", "contentUrl": SITE + "media/22700-flamingo-st-video-tour.mp4",
          "embedUrl": SITE + "#video-tour"}
 webpage = {"@type": "WebPage", "@id": SITE + "#webpage", "url": SITE, "name": TITLE, "description": DESC,
@@ -192,7 +192,7 @@ page = f'''<!doctype html>
     <p class="kicker">Video tour</p>
     <h2 id="video-h">Walk through the home</h2>
     <div class="video-frame">
-      <video controls playsinline preload="metadata" poster="media/video-poster.jpg" width="1920" height="1080" aria-label="Video walkthrough tour of {esc(FULL_ADDR)}">
+      <video controls playsinline preload="metadata" poster="media/video-poster-kitchen.jpg" width="1920" height="1080" aria-label="Video walkthrough tour of {esc(FULL_ADDR)}">
         <source src="media/22700-flamingo-st-video-tour.mp4" type="video/mp4">
         Your browser can't play this video. <a href="media/22700-flamingo-st-video-tour.mp4">Download the video tour</a>.
       </video>
@@ -345,7 +345,7 @@ open(os.path.join(ROOT, "sitemap.xml"), "w").write(f"""<?xml version="1.0" encod
     <lastmod>{C['LAST_UPDATED']}</lastmod>
 {imgs}
     <video:video>
-      <video:thumbnail_loc>{SITE}media/video-poster.jpg</video:thumbnail_loc>
+      <video:thumbnail_loc>{SITE}media/video-poster-kitchen.jpg</video:thumbnail_loc>
       <video:title>Video tour: {FULL_ADDR} rental home</video:title>
       <video:description>2.5-minute walkthrough video tour of the renovated home for lease at {FULL_ADDR}.</video:description>
       <video:content_loc>{SITE}media/22700-flamingo-st-video-tour.mp4</video:content_loc>

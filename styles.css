@@ -7,7 +7,7 @@ img,video{max-width:100%;display:block}a{color:inherit}
 .banner strong{font-weight:700}.banner a{color:#fff;font-weight:600;text-decoration:underline;text-underline-offset:3px}.banner-sep{margin:0 10px;opacity:.7}
 .topbar{position:sticky;top:var(--bannerH,58px);z-index:40;display:flex;align-items:center;justify-content:flex-end;padding:12px 32px;background:rgba(251,250,247,.94);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
 .brand{font-family:var(--serif);font-size:22px;text-decoration:none;letter-spacing:.02em}
-.topbar nav a{margin-left:24px;text-decoration:none;font-size:14px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink2)}
+.topbar nav a{margin-left:24px;font-weight:700;text-decoration:none;font-size:14px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink2)}
 .topbar nav a:hover{color:var(--gold2)}
 .nav-cta{border:1px solid var(--ink);padding:7px 14px;border-radius:2px}
 .hero{position:relative;min-height:min(88vh,860px);display:flex;align-items:flex-end;color:#fff;overflow:hidden}

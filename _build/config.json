@@ -1,0 +1,17 @@
+{
+  "_README": "Edit the values below, then run: python3 _build/build.py  (regenerates index.html, llms.txt, sitemap.xml, robots.txt). Any value still wrapped in {{ }} is shown as a highlighted placeholder on the page and left out of the structured data.",
+  "SITE_URL": "https://gboles613.github.io/22700-flamingo-st/",
+  "EMAIL": "gboles613@gmail.com",
+  "PHONE_DISPLAY": "310.806.0022",
+  "PHONE_TEL": "+13108060022",
+  "CONTACT_NAME": "Greg Boles",
+  "RENT": "$7,495",
+  "BEDS": "4",
+  "BATHS": "3",
+  "SQFT": "2,638",
+  "AVAILABLE_DATE": "Available Now",
+  "PETS": "{{PETS}}",
+  "FURNISHED": "Unfurnished",
+  "BROKER_COMMISSION": "5% Broker Commission Offered (up to 1-year lease)",
+  "LAST_UPDATED": "2026-10-18"
+}

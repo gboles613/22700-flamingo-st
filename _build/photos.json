@@ -1,0 +1,392 @@
+[
+ {
+  "file": "01-front-of-house",
+  "caption": "Front of the home",
+  "alt": "Front exterior of the modern two-story home at 22700 Flamingo St, Woodland Hills, CA, with dark trim, attached two-car garage and curved driveway",
+  "w": 1920,
+  "h": 1440,
+  "tw": 640,
+  "th": 480,
+  "src": "1-Front of House.jpg"
+ },
+ {
+  "file": "02-front-yard-street-view",
+  "caption": "Front yard & street view",
+  "alt": "Landscaped front yard with mature trees and drought-tolerant plants at 22700 Flamingo St, Woodland Hills",
+  "w": 1920,
+  "h": 1440,
+  "tw": 640,
+  "th": 480,
+  "src": "36-Front Yard-Street view.jpg"
+ },
+ {
+  "file": "03-front-door-address",
+  "caption": "Front entry",
+  "alt": "Black front door beside modern 22700 house numbers on a white stucco wall",
+  "w": 1920,
+  "h": 1440,
+  "tw": 640,
+  "th": 480,
+  "src": "37-Front Door-22700 House Address.jpg"
+ },
+ {
+  "file": "04-front-door-view",
+  "caption": "View from the front door",
+  "alt": "View from the front door across the landscaped front yard and driveway toward the quiet residential street",
+  "w": 1920,
+  "h": 1440,
+  "tw": 640,
+  "th": 480,
+  "src": "35-Front Door View.jpg"
+ },
+ {
+  "file": "05-entry",
+  "caption": "Entry & foyer",
+  "alt": "Bright entry foyer with wood-look plank flooring, recessed lighting and staircase with metal railing",
+  "w": 1920,
+  "h": 1440,
+  "tw": 640,
+  "th": 480,
+  "src": "1.5-Entry.jpeg"
+ },
+ {
+  "file": "06-living-room-vaulted-ceilings",
+  "caption": "Living room with vaulted ceilings",
+  "alt": "Large living room with vaulted beamed ceiling, floor-to-ceiling windows and garden views",
+  "w": 1920,
+  "h": 1440,
+  "tw": 640,
+  "th": 480,
+  "src": "6-Large Living Room-Vaulted Ceilings & Windows.jpg"
+ },
+ {
+  "file": "07-living-room-gas-fireplace",
+  "caption": "Gas fireplace",
+  "alt": "Living room gas fireplace with floor-to-ceiling stacked-stone surround and raised hearth",
+  "w": 1920,
+  "h": 1440,
+  "tw": 640,
+  "th": 480,
+  "src": "7-Living Room-Gas Fireplace.jpg"
+ },
+ {
+  "file": "08-kitchen-appliances",
+  "caption": "Kitchen",
+  "alt": "Renovated kitchen with stainless steel French-door refrigerator, gas cooktop, range hood, wall oven and white shaker cabinets",
+  "w": 1920,
+  "h": 1440,
+  "tw": 640,
+  "th": 480,
+  "src": "2-Kitchen Fridge-Cooktop-Oven.jpg"
+ },
+ {
+  "file": "09-kitchen-quartz-countertop",
+  "caption": "Quartz countertops",
+  "alt": "Kitchen with large dark quartz countertop, white subway-tile backsplash and white shaker cabinetry",
+  "w": 1920,
+  "h": 1440,
+  "tw": 640,
+  "th": 480,
+  "src": "3-Kitchen-Large Quartz Countertop & Cabinets.jpg"
+ },
+ {
+  "file": "10-kitchen-pull-out-drawers",
+  "caption": "Pull-out soft-close drawers",
+  "alt": "Kitchen cabinet with pull-out soft-close wood drawers for organized storage",
+  "w": 1920,
+  "h": 1440,
+  "tw": 640,
+  "th": 480,
+  "src": "4-Kitchen-Pull Out Soft Close Drawers.jpg"
+ },
+ {
+  "file": "11-dining-room",
+  "caption": "Dining room off the kitchen",
+  "alt": "Dining room with pendant light fixture and large window, adjacent to the kitchen",
+  "w": 1920,
+  "h": 1440,
+  "tw": 640,
+  "th": 480,
+  "src": "8-Dining Room off Kitchen.jpg"
+ },
+ {
+  "file": "12-den-and-patio",
+  "caption": "Den opening to the patio",
+  "alt": "Spacious den with sliding glass doors opening to the covered backyard patio",
+  "w": 1920,
+  "h": 1440,
+  "tw": 640,
+  "th": 480,
+  "src": "5-Den-Full View & Patio.jpg"
+ },
+ {
+  "file": "13-den-full-view",
+  "caption": "Den",
+  "alt": "Den with wood-look floors, recessed lighting and staircase to the second floor",
+  "w": 1920,
+  "h": 1440,
+  "tw": 640,
+  "th": 480,
+  "src": "9-Den-Full View.jpg"
+ },
+ {
+  "file": "14-downstairs-bedroom-office",
+  "caption": "Downstairs bedroom or office",
+  "alt": "Downstairs bedroom or home office with large window, recessed lighting and wood-look flooring",
+  "w": 1920,
+  "h": 1440,
+  "tw": 640,
+  "th": 480,
+  "src": "11-Downstairs Bedroom or Office.jpg"
+ },
+ {
+  "file": "15-downstairs-bedroom-closet",
+  "caption": "Downstairs bedroom closet",
+  "alt": "Downstairs bedroom with double-door closet",
+  "w": 1920,
+  "h": 1440,
+  "tw": 640,
+  "th": 480,
+  "src": "12-Downstairs Bedroom & Closet.jpg"
+ },
+ {
+  "file": "16-downstairs-bedroom-closet-interior",
+  "caption": "Downstairs closet interior",
+  "alt": "Interior of the downstairs bedroom closet with shelf and hanging rod",
+  "w": 1920,
+  "h": 1440,
+  "tw": 640,
+  "th": 480,
+  "src": "12.5-Downstairs Bedroom-Office Closet.jpg"
+ },
+ {
+  "file": "17-guest-bathroom",
+  "caption": "Downstairs bathroom",
+  "alt": "Remodeled bathroom with gray vanity, framed mirror and glass-enclosed marble-look walk-in shower with pebble floor",
+  "w": 1920,
+  "h": 1440,
+  "tw": 640,
+  "th": 480,
+  "src": "10-Guest Bathroom.jpg"
+ },
+ {
+  "file": "18-stairs",
+  "caption": "Staircase",
+  "alt": "Staircase with decorative wrought-iron railing leading to the second floor",
+  "w": 1920,
+  "h": 1440,
+  "tw": 640,
+  "th": 480,
+  "src": "13-Stairs.jpg"
+ },
+ {
+  "file": "19-upstairs-landing",
+  "caption": "Upstairs landing",
+  "alt": "Upstairs landing with wood-look floors and doors to the bedrooms",
+  "w": 1920,
+  "h": 1440,
+  "tw": 640,
+  "th": 480,
+  "src": "22-Upstairs Landing.jpg"
+ },
+ {
+  "file": "20-primary-bedroom",
+  "caption": "Primary bedroom",
+  "alt": "Large primary bedroom suite with recessed lighting, wood-look flooring and garden-view windows",
+  "w": 1920,
+  "h": 1440,
+  "tw": 640,
+  "th": 480,
+  "src": "14-Primary Bedroom-Full View.jpg"
+ },
+ {
+  "file": "21-primary-bathroom",
+  "caption": "Primary bathroom",
+  "alt": "Primary bathroom with marble-look glass shower, white vanity and garden-view window",
+  "w": 1920,
+  "h": 1440,
+  "tw": 640,
+  "th": 480,
+  "src": "15-Master Bath Full.jpg"
+ },
+ {
+  "file": "22-primary-shower-bench",
+  "caption": "Primary shower with bench",
+  "alt": "Primary bathroom walk-in glass shower with marble-look tile, rain shower head and built-in seat bench",
+  "w": 1920,
+  "h": 1440,
+  "tw": 640,
+  "th": 480,
+  "src": "16-Primary Bathroom-Shower & Seat bench.jpg"
+ },
+ {
+  "file": "23-primary-bathtub",
+  "caption": "Soaking tub",
+  "alt": "Primary bathroom soaking bathtub with marble-look surround",
+  "w": 1920,
+  "h": 1440,
+  "tw": 640,
+  "th": 480,
+  "src": "17-Primary Bathroom-Bathtub.jpg"
+ },
+ {
+  "file": "24-primary-vanity",
+  "caption": "Primary vanity",
+  "alt": "Primary bathroom white vanity with large mirror and garden-view window",
+  "w": 1920,
+  "h": 1440,
+  "tw": 640,
+  "th": 480,
+  "src": "18-Primary Bathroom-Vanity-Toilet-View.jpg"
+ },
+ {
+  "file": "25-primary-walk-in-closet",
+  "caption": "Huge walk-in closet",
+  "alt": "Very large primary walk-in closet with built-in shelving and long hanging rods",
+  "w": 1920,
+  "h": 1440,
+  "tw": 640,
+  "th": 480,
+  "src": "19-Primary-Huge Walk In Closet2.jpg"
+ },
+ {
+  "file": "26-primary-second-closet",
+  "caption": "Second walk-in closet",
+  "alt": "Second walk-in closet in the primary suite",
+  "w": 1920,
+  "h": 1440,
+  "tw": 640,
+  "th": 480,
+  "src": "20-Primary-2nd Walk In Closet.jpg"
+ },
+ {
+  "file": "27-primary-second-closet-interior",
+  "caption": "Second walk-in closet interior",
+  "alt": "Interior of the second primary walk-in closet with shelves and hanging rods",
+  "w": 1920,
+  "h": 1440,
+  "tw": 640,
+  "th": 480,
+  "src": "21-Primary 2nd Walk In Closet.jpg"
+ },
+ {
+  "file": "28-bedroom-3-vaulted-ceiling",
+  "caption": "Bedroom with vaulted ceiling",
+  "alt": "Upstairs bedroom with vaulted ceiling and sliding glass door to the balcony",
+  "w": 1920,
+  "h": 1440,
+  "tw": 640,
+  "th": 480,
+  "src": "25-Bedroom 3-Vaulted ceiling.jpg"
+ },
+ {
+  "file": "29-bedroom-4",
+  "caption": "Bedroom",
+  "alt": "Upstairs bedroom with sliding glass door to the balcony and wood-look flooring",
+  "w": 1920,
+  "h": 1440,
+  "tw": 640,
+  "th": 480,
+  "src": "27-Bedroom 4.jpg"
+ },
+ {
+  "file": "30-bathroom-double-vanity",
+  "caption": "Upstairs bathroom double vanity",
+  "alt": "Upstairs bathroom with white double vanity, wide mirror and window",
+  "w": 1920,
+  "h": 1440,
+  "tw": 640,
+  "th": 480,
+  "src": "23-Bathroom 3-Double Vanities.jpg"
+ },
+ {
+  "file": "31-bathroom-shower",
+  "caption": "Upstairs bathroom shower",
+  "alt": "Upstairs bathroom with glass-enclosed tiled shower and garden-view window",
+  "w": 1920,
+  "h": 1440,
+  "tw": 640,
+  "th": 480,
+  "src": "24-Bathroom 3-Shower & View.jpg"
+ },
+ {
+  "file": "32-balcony-180-degree-view",
+  "caption": "Balcony with 180\u00b0 views",
+  "alt": "Furnished balcony with sofa, chaise lounges and fire table overlooking 180-degree mountain and treetop views",
+  "w": 1920,
+  "h": 1440,
+  "tw": 640,
+  "th": 480,
+  "src": "26-Balcony 180 degree View.jpg"
+ },
+ {
+  "file": "33-linen-closet",
+  "caption": "Linen closet",
+  "alt": "Walk-in linen closet with wraparound white shelving",
+  "w": 1440,
+  "h": 1920,
+  "tw": 480,
+  "th": 640,
+  "src": "28-Linen Closet.jpg"
+ },
+ {
+  "file": "34-laundry-room",
+  "caption": "Laundry room",
+  "alt": "Dedicated laundry room with LG front-load washer and dryer on storage pedestals",
+  "w": 1920,
+  "h": 1440,
+  "tw": 640,
+  "th": 480,
+  "src": "29-Laundry Room-LG Washer & Dryer & Storage Pedestals.jpg"
+ },
+ {
+  "file": "35-washer-dryer",
+  "caption": "LG washer & dryer",
+  "alt": "LG front-load washer and dryer with pedestal storage drawers",
+  "w": 1920,
+  "h": 1440,
+  "tw": 640,
+  "th": 480,
+  "src": "30-LG Washer & Dryer and Pedestal storage bases.jpg"
+ },
+ {
+  "file": "36-nest-thermostat",
+  "caption": "Nest smart thermostat",
+  "alt": "Nest smart thermostat on the wall",
+  "w": 1920,
+  "h": 1440,
+  "tw": 640,
+  "th": 480,
+  "src": "31-Nest Smart Thermostat.jpg"
+ },
+ {
+  "file": "37-covered-patio-backyard",
+  "caption": "Covered patio & backyard",
+  "alt": "Covered backyard patio with outdoor seating beside a green lawn and mature landscaping",
+  "w": 1920,
+  "h": 1440,
+  "tw": 640,
+  "th": 480,
+  "src": "32-Patio Backyard.jpg"
+ },
+ {
+  "file": "38-backyard-dining",
+  "caption": "Outdoor dining",
+  "alt": "Backyard outdoor dining table and lounge seating surrounded by colorful mature trees",
+  "w": 1920,
+  "h": 1440,
+  "tw": 640,
+  "th": 480,
+  "src": "33-Backyard Dining Set.jpg"
+ },
+ {
+  "file": "39-backyard-lawn",
+  "caption": "Backyard lawn",
+  "alt": "Private grassy backyard with flowering planters, block retaining wall and white privacy fence",
+  "w": 1920,
+  "h": 1440,
+  "tw": 640,
+  "th": 480,
+  "src": "34-Backyard Grass & Front Fence.jpg"
+ }
+]

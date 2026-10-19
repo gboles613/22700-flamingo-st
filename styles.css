@@ -74,7 +74,7 @@ h3{font-family:var(--serif);font-weight:500;font-size:22px;margin:0 0 10px}
  .eyebrow{font-size:11px}
 }
 
-.price-badge{position:absolute;z-index:3;transform:translate(-50%,-50%) rotate(-20deg);display:flex;flex-direction:column;align-items:center;text-align:center;background:#c0392b;color:#fff;padding:14px 26px;border-radius:12px;border:2px solid rgba(255,255,255,.9);box-shadow:0 10px 30px rgba(0,0,0,.45);font-family:inherit;line-height:1.15;white-space:nowrap;left:74.5%;top:55%}
+.price-badge{position:absolute;z-index:3;transform:translate(-50%,-50%) rotate(-20deg);display:flex;flex-direction:column;align-items:center;text-align:center;background:rgba(192,57,43,.6);backdrop-filter:blur(2px);-webkit-backdrop-filter:blur(2px);color:#fff;text-shadow:0 1px 3px rgba(0,0,0,.45);padding:14px 26px;border-radius:12px;border:2px solid rgba(255,255,255,.9);box-shadow:0 10px 30px rgba(0,0,0,.45);font-family:inherit;line-height:1.15;white-space:nowrap;left:74.5%;top:55%}
 .price-badge .pb-top{font-size:30px;font-weight:800;text-transform:uppercase;letter-spacing:.04em}
 .price-badge .pb-sub{font-size:18px;margin-top:6px}.price-badge s{opacity:.85}.price-badge b{font-weight:800}
 .price-badge.pb-corner{left:auto;right:14px;top:16px;transform:rotate(-20deg);padding:10px 16px}

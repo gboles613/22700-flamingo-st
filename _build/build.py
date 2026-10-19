@@ -149,7 +149,7 @@ page = f'''<!doctype html>
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="preload" as="image" href="images/full/01-front-of-house.webp" fetchpriority="high">
 <link rel="alternate" type="text/plain" href="llms.txt" title="LLM-readable listing summary">
-<link rel="stylesheet" href="styles.css?v=1792367720">
+<link rel="stylesheet" href="styles.css?v=1792368033">
 <script type="application/ld+json">
 {JSONLD}
 </script>
@@ -273,8 +273,8 @@ page = f'''<!doctype html>
   <figure><img id="lb-img" alt=""><figcaption id="lb-cap"></figcaption></figure>
   <button class="lb-next" aria-label="Next photo">&#8250;</button>
 </div>
-<script src="hero.js?v=1792367720"></script>
-<script src="lightbox.js?v=1792367720" defer></script>
+<script src="hero.js?v=1792368033"></script>
+<script src="lightbox.js?v=1792368033" defer></script>
 </body>
 </html>
 '''

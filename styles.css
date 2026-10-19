@@ -79,3 +79,4 @@ h3{font-family:var(--serif);font-weight:500;font-size:22px;margin:0 0 10px}
 .price-badge .pb-sub{font-size:18px;margin-top:6px}.price-badge s{opacity:.85}.price-badge b{font-weight:800}
 .price-badge.pb-corner{left:auto;right:14px;top:16px;transform:rotate(-20deg);padding:10px 16px}
 .price-badge.pb-corner .pb-top{font-size:20px}.price-badge.pb-corner .pb-sub{font-size:14px}
+.price-badge .pb-lc{text-transform:none}

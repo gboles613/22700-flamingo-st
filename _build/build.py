@@ -149,7 +149,7 @@ page = f'''<!doctype html>
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="preload" as="image" href="images/full/01-front-of-house.webp" fetchpriority="high">
 <link rel="alternate" type="text/plain" href="llms.txt" title="LLM-readable listing summary">
-<link rel="stylesheet" href="styles.css?v=1792368033">
+<link rel="stylesheet" href="styles.css?v=1792369323">
 <script type="application/ld+json">
 {JSONLD}
 </script>
@@ -169,7 +169,7 @@ page = f'''<!doctype html>
     <img class="hero-img" src="images/full/01-front-of-house.webp" width="{PHOTOS[0]['w']}" height="{PHOTOS[0]['h']}" alt="{esc(PHOTOS[0]['alt'])}" fetchpriority="high" decoding="async">
   </picture>
   <div class="hero-shade"></div>
-  <div class="price-badge" id="price-badge" role="note" aria-label="Price reduced $600 per month: was $8,095, now $7,495"><span class="pb-top">Reduced $600 / mo</span><span class="pb-sub">was <s>$8,095</s>, now <b>$7,495</b></span></div>
+  <div class="price-badge" id="price-badge" role="note" aria-label="Price reduced $600 per month: was $8,095, now $7,495"><span class="pb-top">Reduced $600 <span class="pb-lc">/ mo</span></span><span class="pb-sub">was <s>$8,095</s>, now <b>$7,495</b></span></div>
   <div class="hero-inner">
     <p class="eyebrow">For Lease · Single-Family Home</p>
     <h1 id="h1">{ADDR}<span>{CITY}, {ST} {ZIP}</span></h1>
@@ -273,8 +273,8 @@ page = f'''<!doctype html>
   <figure><img id="lb-img" alt=""><figcaption id="lb-cap"></figcaption></figure>
   <button class="lb-next" aria-label="Next photo">&#8250;</button>
 </div>
-<script src="hero.js?v=1792368033"></script>
-<script src="lightbox.js?v=1792368033" defer></script>
+<script src="hero.js?v=1792369323"></script>
+<script src="lightbox.js?v=1792369323" defer></script>
 </body>
 </html>
 '''

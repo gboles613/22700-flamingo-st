@@ -169,7 +169,7 @@ page = f'''<!doctype html>
     <img class="hero-img" src="images/full/01-front-of-house.webp" width="{PHOTOS[0]['w']}" height="{PHOTOS[0]['h']}" alt="{esc(PHOTOS[0]['alt'])}" fetchpriority="high" decoding="async">
   </picture>
   <div class="hero-shade"></div>
-  <div class="price-badge" id="price-badge" role="note" aria-label="Price reduced $600: was $8,095, now $7,495"><span class="pb-top">Reduced $600</span><span class="pb-sub">was <s>$8,095</s>, now <b>$7,495</b></span></div>
+  <div class="price-badge" id="price-badge" role="note" aria-label="Price reduced $600 per month: was $8,095, now $7,495"><span class="pb-top">Reduced $600 / mo</span><span class="pb-sub">was <s>$8,095</s>, now <b>$7,495</b></span></div>
   <div class="hero-inner">
     <p class="eyebrow">For Lease · Single-Family Home</p>
     <h1 id="h1">{ADDR}<span>{CITY}, {ST} {ZIP}</span></h1>

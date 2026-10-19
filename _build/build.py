@@ -21,6 +21,10 @@ SITE = C["SITE_URL"].rstrip("/") + "/"
 EMAIL = C["EMAIL"]
 SUBJ = "Inquiry: 22700 Flamingo St, Woodland Hills rental"
 GMAIL = f"https://mail.google.com/mail/?view=cm&fs=1&to={EMAIL}&su=" + SUBJ.replace(" ", "%20").replace(",", "%2C").replace(":", "%3A")
+from urllib.parse import quote as _q
+OUTLOOK = f"https://outlook.live.com/mail/0/deeplink/compose?to={EMAIL}&subject=" + _q(SUBJ)
+O365 = f"https://outlook.office.com/mail/deeplink/compose?to={EMAIL}&subject=" + _q(SUBJ)
+YAHOO = f"https://compose.mail.yahoo.com/?to={EMAIL}&subject=" + _q(SUBJ)
 MAILTO = f"mailto:{EMAIL}?subject=" + SUBJ.replace(" ", "%20").replace(",", "%2C").replace(":", "%3A")
 TEL = "tel:" + C["PHONE_TEL"]
 SQFT_NUM = int(C["SQFT"].replace(",", "")) if not is_ph(C["SQFT"]) else None
@@ -151,7 +155,7 @@ page = f'''<!doctype html>
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="preload" as="image" href="images/full/01-front-of-house.webp" fetchpriority="high">
 <link rel="alternate" type="text/plain" href="llms.txt" title="LLM-readable listing summary">
-<link rel="stylesheet" href="styles.css?v=1792370699">
+<link rel="stylesheet" href="styles.css?v=1792371365">
 <script type="application/ld+json">
 {JSONLD}
 </script>
@@ -248,11 +252,22 @@ page = f'''<!doctype html>
   <div class="wrap narrow center">
     <p class="kicker light">Schedule a showing</p>
     <h2 id="contact-h">Interested in {ADDR}?</h2>
-    <p>Call or email {esc(C["CONTACT_NAME"])} to ask questions or book a tour. Brokers: {esc(C["BROKER_COMMISSION"].replace(" Offered", " offered"))}.</p>
+    <p>Call or email {esc(C["CONTACT_NAME"])} (CA DRE Lic# 01702857) to ask questions or book a tour.</p>
+    <p class="broker-note"><strong>Brokers:</strong> 5% Broker Commission offered (up to 1-year lease) on a signed, approved lessee.</p>
     <div class="cta-row center">
       <a class="btn btn-gold" href="{TEL}">Call {esc(C["PHONE_DISPLAY"])}</a>
-      <a class="btn btn-ghost" href="{esc(MAILTO)}">Email {email_label}</a>
-      <p class="email-alt">Email: <a class="email-link" href="{esc(MAILTO)}">{email_label}</a> · <a class="email-link" href="{esc(GMAIL)}" target="_blank" rel="noopener">Send via Gmail</a></p>
+      <a class="btn btn-email" href="{esc(MAILTO)}">Email {email_label}</a>
+    </div>
+    <div class="email-options" aria-label="Other ways to email">
+      <p class="eo-title">Send an email with:</p>
+      <div class="eo-row">
+        <a class="eo-btn" href="{esc(GMAIL)}" target="_blank" rel="noopener">Gmail</a>
+        <a class="eo-btn" href="{esc(OUTLOOK)}" target="_blank" rel="noopener">Outlook.com / Hotmail</a>
+        <a class="eo-btn" href="{esc(O365)}" target="_blank" rel="noopener">Outlook (Work / Microsoft 365)</a>
+        <a class="eo-btn" href="{esc(YAHOO)}" target="_blank" rel="noopener">Yahoo Mail</a>
+        <a class="eo-btn" href="{esc(MAILTO)}" data-direct="1">Apple Mail / Default App</a>
+        <button type="button" class="eo-btn eo-copy" data-email="{email_label}">Copy Email Address</button>
+      </div>
     </div>
   </div>
 </section>
@@ -276,8 +291,23 @@ page = f'''<!doctype html>
   <figure><img id="lb-img" alt=""><figcaption id="lb-cap"></figcaption></figure>
   <button class="lb-next" aria-label="Next photo">&#8250;</button>
 </div>
-<script src="hero.js?v=1792370699"></script>
-<script src="lightbox.js?v=1792370699" defer></script>
+<div class="email-modal" id="email-modal" hidden role="dialog" aria-modal="true" aria-labelledby="em-h">
+  <div class="em-box">
+    <button type="button" class="em-close" aria-label="Close">&times;</button>
+    <h3 id="em-h">Email {esc(C["CONTACT_NAME"])}</h3>
+    <p class="em-addr">{email_label}</p>
+    <div class="em-list">
+      <a class="eo-btn" href="{esc(GMAIL)}" target="_blank" rel="noopener">Gmail</a>
+      <a class="eo-btn" href="{esc(OUTLOOK)}" target="_blank" rel="noopener">Outlook.com / Hotmail</a>
+      <a class="eo-btn" href="{esc(O365)}" target="_blank" rel="noopener">Outlook (Work / Microsoft 365)</a>
+      <a class="eo-btn" href="{esc(YAHOO)}" target="_blank" rel="noopener">Yahoo Mail</a>
+      <a class="eo-btn" href="{esc(MAILTO)}" data-direct="1">Apple Mail / Default App</a>
+      <button type="button" class="eo-btn eo-copy" data-email="{email_label}">Copy Email Address</button>
+    </div>
+  </div>
+</div>
+<script src="hero.js?v=1792371365"></script>
+<script src="lightbox.js?v=1792371365" defer></script>
 </body>
 </html>
 '''

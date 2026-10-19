@@ -94,3 +94,17 @@ h3{font-family:var(--serif);font-weight:500;font-size:22px;margin:0 0 10px}
  .price-badge{padding:9px 14px;border-radius:10px}.price-badge .pb-top{font-size:18px}.price-badge .pb-sub{font-size:12px;margin-top:3px}
  .kicker.kicker-lg{font-size:20px}
 }
+
+.btn-email{background:#fff;color:var(--ink);border:1px solid #fff;font-weight:700}.btn-email:hover{background:#f1ece2}
+.broker-note{font-size:18px;margin-top:6px}
+.email-options{margin-top:34px;padding-top:24px;border-top:1px solid rgba(255,255,255,.2)}
+.eo-title{font-weight:700;font-size:16px;margin:0 0 12px;letter-spacing:.04em}
+.eo-row,.em-list{display:flex;flex-wrap:wrap;gap:10px;justify-content:center}
+.eo-btn{display:inline-block;padding:10px 16px;border:1px solid rgba(255,255,255,.7);color:#fff;background:transparent;text-decoration:none;font:inherit;font-size:15px;font-weight:600;border-radius:4px;cursor:pointer}
+.eo-btn:hover{background:rgba(255,255,255,.14)}
+.email-modal{position:fixed;inset:0;z-index:100;background:rgba(10,14,20,.7);display:flex;align-items:center;justify-content:center;padding:18px}
+.email-modal[hidden]{display:none}
+.em-box{position:relative;background:#fff;color:var(--ink);max-width:460px;width:100%;border-radius:10px;padding:28px 24px 24px;text-align:center;box-shadow:0 20px 60px rgba(0,0,0,.4)}
+.em-box h3{font-family:var(--serif);font-size:26px;margin:0 0 4px}.em-addr{margin:0 0 18px;font-weight:700;color:var(--gold2)}
+.em-box .em-list{flex-direction:column}.em-box .eo-btn{color:var(--ink);border-color:var(--line,#ccc);width:100%}.em-box .eo-btn:hover{background:#f4efe6}
+.em-close{position:absolute;top:6px;right:12px;background:none;border:0;font-size:32px;line-height:1;cursor:pointer;color:#666}

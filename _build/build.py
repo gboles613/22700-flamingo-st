@@ -5,6 +5,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 C = json.load(open(os.path.join(HERE, "config.json")))
 PHOTOS = json.load(open(os.path.join(HERE, "photos.json")))
+PHOTOS.sort(key=lambda p: float(re.match(r"\s*([0-9]+(?:\.[0-9]+)?)", p["src"]).group(1)))
 
 def is_ph(v): return bool(re.search(r"\{\{.*\}\}|_PLACEHOLDER", str(v)))
 def esc(s): return html.escape(str(s), quote=True)
@@ -19,6 +20,7 @@ LAT, LNG = 34.148, -118.621
 SITE = C["SITE_URL"].rstrip("/") + "/"
 EMAIL = C["EMAIL"]
 SUBJ = "Inquiry: 22700 Flamingo St, Woodland Hills rental"
+GMAIL = f"https://mail.google.com/mail/?view=cm&fs=1&to={EMAIL}&su=" + SUBJ.replace(" ", "%20").replace(",", "%2C").replace(":", "%3A")
 MAILTO = f"mailto:{EMAIL}?subject=" + SUBJ.replace(" ", "%20").replace(",", "%2C").replace(":", "%3A")
 TEL = "tel:" + C["PHONE_TEL"]
 SQFT_NUM = int(C["SQFT"].replace(",", "")) if not is_ph(C["SQFT"]) else None
@@ -149,7 +151,7 @@ page = f'''<!doctype html>
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="preload" as="image" href="images/full/01-front-of-house.webp" fetchpriority="high">
 <link rel="alternate" type="text/plain" href="llms.txt" title="LLM-readable listing summary">
-<link rel="stylesheet" href="styles.css?v=1792369323">
+<link rel="stylesheet" href="styles.css?v=1792370699">
 <script type="application/ld+json">
 {JSONLD}
 </script>
@@ -189,7 +191,7 @@ page = f'''<!doctype html>
 
 <section class="section" id="video-tour" aria-labelledby="video-h">
   <div class="wrap">
-    <p class="kicker">Video tour</p>
+    <p class="kicker kicker-lg">Video Tour</p>
     <h2 id="video-h">Walk through the home</h2>
     <div class="video-frame">
       <video controls playsinline preload="metadata" poster="media/video-poster-kitchen.jpg" width="1920" height="1080" aria-label="Video walkthrough tour of {esc(FULL_ADDR)}">
@@ -250,6 +252,7 @@ page = f'''<!doctype html>
     <div class="cta-row center">
       <a class="btn btn-gold" href="{TEL}">Call {esc(C["PHONE_DISPLAY"])}</a>
       <a class="btn btn-ghost" href="{esc(MAILTO)}">Email {email_label}</a>
+      <p class="email-alt">Email: <a class="email-link" href="{esc(MAILTO)}">{email_label}</a> · <a class="email-link" href="{esc(GMAIL)}" target="_blank" rel="noopener">Send via Gmail</a></p>
     </div>
   </div>
 </section>
@@ -259,7 +262,7 @@ page = f'''<!doctype html>
   <div class="wrap">
     <address>
       <strong>{FULL_ADDR}</strong><br>
-      Single-family home for lease · Contact {esc(C["CONTACT_NAME"])} · <a href="{TEL}">{esc(C["PHONE_DISPLAY"])}</a> · <a href="{esc(MAILTO)}">{email_label}</a>
+      Single-family home for lease · Contact {esc(C["CONTACT_NAME"])} · <a href="{TEL}">{esc(C["PHONE_DISPLAY"])}</a> · <a class="email-link" href="{esc(MAILTO)}">{email_label}</a>
     </address>
     <p class="fine">Information is deemed reliable but not guaranteed; prospective tenants should verify all details. Equal Housing Opportunity. Last updated {esc(C["LAST_UPDATED"])}.</p>
   </div>
@@ -273,8 +276,8 @@ page = f'''<!doctype html>
   <figure><img id="lb-img" alt=""><figcaption id="lb-cap"></figcaption></figure>
   <button class="lb-next" aria-label="Next photo">&#8250;</button>
 </div>
-<script src="hero.js?v=1792369323"></script>
-<script src="lightbox.js?v=1792369323" defer></script>
+<script src="hero.js?v=1792370699"></script>
+<script src="lightbox.js?v=1792370699" defer></script>
 </body>
 </html>
 '''

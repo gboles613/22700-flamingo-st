@@ -99,7 +99,7 @@ listing = {"@type": "RealEstateListing", "@id": SITE + "#listing", "url": SITE, 
 video = {"@type": "VideoObject", "@id": SITE + "#video",
          "name": f"Video tour: {FULL_ADDR} rental home",
          "description": f"2.5-minute walkthrough video tour of the renovated home for lease at {FULL_ADDR}.",
-         "thumbnailUrl": [SITE + "media/video-poster-kitchen.jpg"], "uploadDate": "2026-10-18",
+         "thumbnailUrl": [SITE + "media/video-poster-kitchen.jpg"], "uploadDate": "2026-10-18T12:00:00-07:00",
          "duration": "PT2M30S", "contentUrl": SITE + "media/22700-flamingo-st-video-tour.mp4",
          "embedUrl": SITE + "#video-tour"}
 webpage = {"@type": "WebPage", "@id": SITE + "#webpage", "url": SITE, "name": TITLE, "description": DESC,
